@@ -2,7 +2,8 @@ const parser = new DOMParser();
 const formulario = document.getElementById('formulario')
 const btnSend = document.getElementById('btnSend')
 const text = document.getElementById('text')
-const url = "http://localhost:82/api-php/src/post.php"
+// const url = "http://localhost:82/api-php/src/post.php"
+const url = "https://extract-pdf.000webhostapp.com/src/post.php"
 
 btnSend.addEventListener('click', (e)=>{
     // e.preventDefault()
